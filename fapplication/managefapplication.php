@@ -125,7 +125,7 @@ function init_manage_fapplication() {
                 </tbody>
             </table>
             <br/>
-            <a href="<?php echo get_bloginfo('url') . '/wp-admin/plugin-editor.php?file=wp_fapplication%2Fstyle.css&plugin=wp_fapplication%2Ffapplication.php';?>"><i>Edit css</i></a>
+            <a href="<?php echo get_bloginfo('url') . '/wp-admin/plugin-editor.php?file=facebook-tabs-editor%2Fstyle.css&plugin=facebook-tabs-editor%2Ffapplication.php';?>"><i>Edit css</i></a>
         </div>
     </div><?php
             }

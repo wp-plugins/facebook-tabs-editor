@@ -6,14 +6,14 @@
  * Description:   Manage your facebook page directly from your wordpress admin panel!
  * Author:        Codastar Limited
  */
-define('CSS_PATH_FAPPLICATION', get_bloginfo('url') . '/plugins/wp_fapplication/css/');
-define('JS_PATH_FAPPLICATION', get_bloginfo('url') . '/plugins/wp_fapplication/js/');
+define('CSS_PATH_FAPPLICATION', get_bloginfo('url') . '/plugins/facebook-tabs-editor/css/');
+define('JS_PATH_FAPPLICATION', get_bloginfo('url') . '/plugins/facebook-tabs-editor/js/');
 define('FAPPLICATION_IMAGE_THUMB_DIR', get_bloginfo('url') . '/images/fapplication/thumb/');
 define('FAPPLICATION_IMAGE_DIR', get_bloginfo('url') . '/images/fapplication/');
 
 define('TEMPLATEPATH', get_bloginfo('template_directory') . '/images/image_temp/');
 
-//define('fapplication_TABLE','wp_fapplication');
+//define('fapplication_TABLE','facebook-tabs-editor');
 define('ARTICLES_TABLE', $wpdb->prefix . 'fapplication');
 
 register_deactivation_hook(__FILE__, 'myplugin_deactivate');
@@ -21,10 +21,10 @@ register_activation_hook(__FILE__, 'myplugin_activate');
 
 function myplugin_activate() {
     $my_theme = get_bloginfo('template_url');
-    $fbsource1 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-page.php';
-    $fbsource2 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-blog.php';
-    $fbsource3 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-post.php';
-    $fbsource4 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-contact.php';
+    $fbsource1 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-page.php';
+    $fbsource2 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-blog.php';
+    $fbsource3 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-post.php';
+    $fbsource4 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-contact.php';
 
 
     //open file and get data
@@ -35,7 +35,7 @@ function myplugin_activate() {
 
 
     //Write correct path for css
-    $replacecss = '<link rel="stylesheet" type="text/css" media="all" href="' . get_bloginfo('url') . '/wp-content/plugins/wp_fapplication/style.css">';
+    $replacecss = '<link rel="stylesheet" type="text/css" media="all" href="' . get_bloginfo('url') . '/wp-content/plugins/facebook-tabs-editor/style.css">';
     $searchcss = 'pluginstyle';
 
     //Write correct path for iframe
@@ -74,10 +74,10 @@ function fapplication() {
 function myplugin_deactivate() {
     $my_theme = get_bloginfo('template_url');
 
-    $fbsource11 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-page.php';
-    $fbsource22 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-blog.php';
-    $fbsource33 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-contact.php';
-    $fbsource44 = WP_CONTENT_DIR . '/plugins/wp_fapplication/files-to-copy/facebook-post.php';
+    $fbsource11 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-page.php';
+    $fbsource22 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-blog.php';
+    $fbsource33 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-contact.php';
+    $fbsource44 = WP_CONTENT_DIR . '/plugins/facebook-tabs-editor/files-to-copy/facebook-post.php';
 
     sleep(1);
 
@@ -88,7 +88,7 @@ function myplugin_deactivate() {
     $data7a = file_get_contents($fbsource44);
 
     //Return default path for css
-    $searchcssa = '<link rel="stylesheet" type="text/css" media="all" href="' . get_bloginfo('url') . '/wp-content/plugins/wp_fapplication/style.css">';
+    $searchcssa = '<link rel="stylesheet" type="text/css" media="all" href="' . get_bloginfo('url') . '/wp-content/plugins/facebook-tabs-editor/style.css">';
     $replacecssa = 'pluginstyle';
 
     //Return default path for iframe

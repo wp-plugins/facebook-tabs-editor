@@ -76,7 +76,7 @@ function init_add_fapplication() {
     function addfapplication() {
             ?>
 
-    <script type="text/javascript" src="<?php echo get_bloginfo('url'); ?>/wp-content/plugins/wp_fapplication/js/nicEdit-latest.js"></script> 
+    <script type="text/javascript" src="<?php echo get_bloginfo('url'); ?>/wp-content/plugins/facebook-tabs-editor/js/nicEdit-latest.js"></script> 
     <script type="text/javascript">
         bkLib.onDomLoaded(function() {
             new nicEditor({fullPanel : true}).panelInstance('designation');
@@ -144,8 +144,8 @@ function init_add_fapplication() {
                     </td>
                 </tr>
                 <tr>
-                    <td align="center">
-                        &nbsp;
+                    <td align="center">&nbsp;
+                        
                     </td>
                 </tr>
                 <tr>

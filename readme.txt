@@ -5,7 +5,7 @@ Donate link: https://www.social-media-files.co.uk/donate
 Tags: facebook tabs management, facebook app management, facebook app, facebook tab, facebook apps, facebook tabs, facebook editor, facebook tab editor, facebook app editor, facebook blog, facebook blog feed, facebook, facebook cms, facebook content management system  
 Requires at least: 3.4.1
 Tested up to: 3.5.1
-Stable tag: /tags/1.0/readme.txt
+Stable tag: /tags/1.1/readme.txt
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ So, if you are able to manage your website from Wordpress, you’ll be able to man
 = HOW IT WORKS =
 
 
-* Simply download the free wordpress plugin and install it (Craig, make link to wordpress plugin page)
+* Simply download the free wordpress plugin and install it.
 * On the left navigation menu bar of your wordpress admin, clcik on: "Facebook Tabs"
 * Simply create your own design and content directly from your wordpress site, the same way as you would do for any page or post, and all your changes will automatically appear on your Facebook tabs.
 
@@ -58,7 +58,8 @@ Want a contact app on Facebook? We also created that for you. Simply add the con
 
 1. Upload `facebook-tab-editor` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click on the Facebook Tabs link in the left menu to manage the plugin.
+3. Once activated, copy the files from '/wp-content/plugins/facebook-tabs-editor/files-to-copy' into your active Themes directory.
+4. Click on the Facebook Tabs link in the left menu to manage the plugin.
 
 == Frequently asked questions ==
 
@@ -72,7 +73,7 @@ Yes, absolutelly. Create whatever content you like.
 
 **Will shortcodes from other plugins work?**
 
-They should. There is no reason why they wouldn't. Use any HTML, makrup, shortcodes etc you like and it should reflect perfectly in your Facebook apps.
+They should. There is no reason why they wouldn't. Use any HTML, markup, shortcodes etc you like and it should reflect perfectly in your Facebook apps.
 
 == Screenshots ==
 

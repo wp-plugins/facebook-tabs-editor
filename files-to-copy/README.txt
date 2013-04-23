@@ -1,0 +1,1 @@
+Once you have activated the plugin. Please copy these files from the Facebook Tab Editor directory into your Wordpress Themes directory.
