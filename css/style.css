@@ -1,0 +1,153 @@
+/*   
+Theme URI: http://codastar.com
+Description: My Company Theme
+Author URI: http://codastar.com
+Version: 1
+*/
+
+@media screen {
+
+    * { margin: 0; padding: 0; }
+
+
+    body {
+        background:url(images/bg.jpg) repeat;
+        font-family:Arial, Helvetica, sans-serif;
+        width: 810px;
+        font-size: 12px;
+    }
+
+    hr{
+        width: 740px;
+        height: 1px;
+        border: none;
+        background-color: #ff7c00;
+        float:left;
+        margin: 0 0 20px 0;
+    }
+
+    h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 15px;
+        color: #ff7c00;
+        font-weight: bold;
+    }
+
+    h2, h2 a{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 15px;
+        color: #ff7c00;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        color: #838383;
+    }
+
+    #top-banner{
+        background:url(images/top-bar.png);
+        float:left;
+        width: 810px;
+        height: 40px;
+    }
+
+
+    #fb-logo{
+        background:url(images/logo.png);
+        width: 333px;
+        height: 92px;
+        float:left;
+        margin: 20px 0;
+    }
+
+    #contact-banner{
+        background:url(images/contact-us-banner.png);
+        float:left;
+        width: 810px;
+        height: 86px;
+    }
+
+    #fb-container{
+        width: 740px;
+        margin: 0 20px;
+        padding: 15px;
+        float:left;
+        background:#FFF;
+        border: solid 1px #CCC;
+    }
+
+    #ngg-slideshow-1-2-1{
+        margin-bottom: 20px;
+    }
+
+    #web-link{
+        width: 810px;
+        margin: 10px 0 20px 0;
+        float:left;
+        color:#666;
+        text-decoration: none;
+        text-align:center;
+        font-size: 18px;
+    }
+
+    #fb-nav{
+        background:url(images/tabs.png);
+        width: 331px;
+        height: 39px;
+        float:right;
+        margin-top: -9px;
+    }
+
+    #fb-nav ul{
+        list-style: none;
+    }
+
+    #fb-nav li{
+        width: 110px;
+        float:left;
+        margin: 5px 0;
+        text-align: center;
+
+    }
+
+    #fb-nav li a{
+        color:#FFF;
+        font-weight: bold;
+        font-size:14px;
+        text-decoration:none;
+    }
+
+    #fb-nav li a:hover{
+        color: #ffce94;
+    }
+
+    .alignright{
+        float:right;
+        margin: 10px;
+        padding: 5px;
+        border: solid 1px #CCC;
+    }
+    
+    /*Blog news*/
+    ul li a{
+        color: #FF7C00;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+    ul li{
+        color: #838383;
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+}

@@ -1,0 +1,158 @@
+/*   
+Theme URI: http://codastar.com
+Description: My Company Theme
+Author URI: http://codastar.com
+Version: 1
+*/
+
+
+
+* { margin: 0; padding: 0; }
+
+
+body.facebody{
+    background:url(images/bg.jpg) repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.facewp {
+    background:url(images/bg.jpg) repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 810px;
+    font-size: 12px;
+    float:left;
+}
+
+#facewpholder hr{
+    width: 740px;
+    height: 1px;
+    border: none;
+    background-color: #ff7c00;
+    float:left;
+    margin: 0 0 20px 0;
+}
+
+#facewpholder h1{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #ff7c00;
+    font-weight: bold;
+}
+
+#facewpholder h2, #facewpholder h2 a{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #ff7c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#facewpholder p{
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #838383;
+}
+
+#facewpholder #top-banner{
+    background:url(images/top-bar.png);
+    float:left;
+    width: 810px;
+    height: 40px;
+}
+
+
+#facewpholder #fb-logo{
+    background:url(images/logo.png);
+    width: 333px;
+    height: 92px;
+    float:left;
+    margin: 20px 0;
+}
+
+#facewpholder #contact-banner{
+    background:url(images/contact-us-banner.png);
+    float:left;
+    width: 810px;
+    height: 86px;
+}
+
+#facewpholder #fb-container{
+    width: 740px;
+    margin: 0 20px;
+    padding: 15px;
+    float:left;
+    background:#FFF;
+    border: solid 1px #CCC;
+}
+
+#facewpholder #ngg-slideshow-1-2-1{
+    margin-bottom: 20px;
+}
+
+#facewpholder #web-link{
+    width: 810px;
+    margin: 10px 0 20px 0;
+    float:left;
+    color:#666;
+    text-decoration: none;
+    text-align:center;
+    font-size: 18px;
+}
+
+#facewpholder #fb-nav{
+    background:url(images/tabs.png);
+    width: 331px;
+    height: 39px;
+    float:right;
+    margin-top: -9px;
+}
+
+#facewpholder #fb-nav ul{
+    list-style: none;
+}
+
+#facewpholder #fb-nav li{
+    width: 110px;
+    float:left;
+    margin: 5px 0;
+    text-align: center;
+
+}
+
+#facewpholder #fb-nav li a{
+    color:#FFF;
+    font-weight: bold;
+    font-size:14px;
+    text-decoration:none;
+}
+
+#facewpholder #fb-nav li a:hover{
+    color: #ffce94;
+}
+
+#facewpholder .alignright{
+    float:right;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px #CCC;
+}
+ /*Blog news*/
+    ul.blognews li a{
+        color: #FF7C00;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+    ul.blognews li{
+        color: #838383;
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
